@@ -1,10 +1,10 @@
 package com.uxjp;
 
 class GSClass {
-    private int field1;
+    private Float field1;
     private String field2;
 
-    public void setField1(int value) {
+    public void setField1(Float value) {
         field1 = value;
     }
 
