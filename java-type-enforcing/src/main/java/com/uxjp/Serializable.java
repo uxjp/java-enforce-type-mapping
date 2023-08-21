@@ -7,7 +7,7 @@ import java.util.Map;
 class Serializable {
     private static final Map<String, Class<?>> fieldMappings = new HashMap<>();
     static {
-        fieldMappings.put("field1", Float.class);
+        fieldMappings.put("field1", int.class);
         fieldMappings.put("field2", String.class);
     }
 
