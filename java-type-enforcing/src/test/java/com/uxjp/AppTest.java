@@ -14,7 +14,7 @@ public class AppTest {
     @Test
     public void testValidateMappingWithValidFields() {
         GSClass gsInstance = new GSClass();
-        gsInstance.setField1(42);
+        gsInstance.setField1(new Float(23.54));
         gsInstance.setField2("Hello");
 
         assertDoesNotThrow(() -> Serializable.validateMapping(gsInstance));
